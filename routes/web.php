@@ -32,6 +32,13 @@ Route::get('/html_css', function () {
 Route::get('/tabel_dan_form', function () {
     return view('pemrograman_dasar_web.tabel_dan_form');
 });
-Route::get('/semantic_desain', function () {
-    return view('pemrograman_dasar_web.semantic_desain');
+Route::get('/desain_kotak_konten', function () {
+    return view('pemrograman_dasar_web.desain_kotak_konten');
 });
+Route::get('/layout_responsive_flexbox', function () {
+    return view('pemrograman_dasar_web.layout_responsive_flexbox');
+});
+Route::get('/coba_layout_responsive', function () {
+    return view('pemrograman_dasar_web.coba_layout_responsive');
+});
+
