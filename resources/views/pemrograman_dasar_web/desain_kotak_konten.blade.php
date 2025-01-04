@@ -12,7 +12,7 @@
     <style type="text/css">
          body{ background color : #faf0e6;
                font-family : arial, sans-serif;
-               margin : 0;
+               margin : 50;
                padding : 0;}
 
          header,footer{
@@ -54,7 +54,7 @@
             background-color : white;
             padding : 20px;
             margin :20px;
-            border-radius : 10px
+            border-radius : 30px
             width : 40 %;
             text-align :justify;
          }
@@ -63,6 +63,17 @@
         float: left;
         width: 30%;
         }
+
+        aside {
+        height: 100%;
+        width: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-top: 40px;
+        background-color:rgb(151, 150, 150);
+      }
+
 
     
     </style>
@@ -82,11 +93,17 @@
 
      <!--navbar--->
     <nav>
+    <div>
+
     <ul>
+    <button>
+    
+    </button>
       <li><a href="#">home</a></li>
       <li><a href="#">tentang kami</a></li>
       <li><a href="#">contact</a></li>
     </ul>
+        </div>
     </nav>
  
     <!---end nav--->
@@ -106,7 +123,7 @@ Di GitHub, navigasikan ke halaman utama repositori. Di atas daftar file, <br>pil
 
 <section>
 <article>
-
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error aperiam commodi quis quod. Officiis atque ad soluta commodi ipsam? Dolor doloremque nam quam qui repellat assumenda recusandae molestiae voluptates sunt.</p>
 
 </article>
 </section>
@@ -136,13 +153,17 @@ Di GitHub, navigasikan ke halaman utama repositori. Di atas daftar file, <br>pil
     </table>
 </body></article>
 </section>
-
-
 </section> 
  </main>
 
  <!---end main-->
-
+<aside>
+<ul>
+  <li><a href="#"></a>home</li>
+  <li><a hrf="#"></a>setting</li>
+  <li><a href="#"></a>logout</li>
+</ul>
+</aside>
 <!--footer-->
    <footer>
    <p>&copy;2024|by salma</p>

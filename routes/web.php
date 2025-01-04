@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/html', function () {
-    return view('pemrograman_dasar_web.struktur_dasar');
+Route::get('/struktur_dasar_html', function () {
+    return view('pemrograman_dasar_web.struktur_dasar_html');
 });
 Route::get('/semantic_html', function () {
     return view('pemrograman_dasar_web.semantic_html');
@@ -38,7 +38,13 @@ Route::get('/desain_kotak_konten', function () {
 Route::get('/layout_responsive_flexbox', function () {
     return view('pemrograman_dasar_web.layout_responsive_flexbox');
 });
-Route::get('/coba_layout_responsive', function () {
-    return view('pemrograman_dasar_web.coba_layout_responsive');
+Route::get('/layout_responsive2', function () {
+    return view('pemrograman_dasar_web.layout_responsive2');
+});
+Route::get('/transisi', function () {
+    return view('pemrograman_dasar_web.transisi');
+});
+Route::get('/animasi', function () {
+    return view('pemrograman_dasar_web.animasi');
 });
 
