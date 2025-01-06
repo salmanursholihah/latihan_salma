@@ -67,7 +67,7 @@
         aside {
         height: 100%;
         width: 100px;
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         padding-top: 40px;
@@ -121,6 +121,12 @@ Di GitHub, navigasikan ke halaman utama repositori. Di atas daftar file, <br>pil
 </section>
 
 
+<section>
+<article>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error aperiam commodi quis quod. Officiis atque ad soluta commodi ipsam? Dolor doloremque nam quam qui repellat assumenda recusandae molestiae voluptates sunt.</p>
+
+</article>
+</section>
 <section>
 <article>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error aperiam commodi quis quod. Officiis atque ad soluta commodi ipsam? Dolor doloremque nam quam qui repellat assumenda recusandae molestiae voluptates sunt.</p>
