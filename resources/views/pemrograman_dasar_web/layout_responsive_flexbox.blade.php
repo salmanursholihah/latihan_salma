@@ -11,7 +11,6 @@
     <style type="text/css">
 
     .container{
-
     }
          body{ background color : #faf0e6;
                font-family : arial, sans-serif;
@@ -23,7 +22,6 @@
             font-family : arial, sans-serif;
             text-align: center;
             padding :10px;
-
          }
          nav {
             background-color:rgb(152, 169, 169) ;
@@ -50,8 +48,7 @@
             margin :20px;
             padding :20px;
             display : flex;
-            justify-content :space-between;
-            
+            justify-content :space-between;      
          }
          article{
             background-color : white;
@@ -61,9 +58,6 @@
             width : 40 %;
             text-align :justify;
          }
-
-
-
     
     </style>
     <!--end style semantic-->

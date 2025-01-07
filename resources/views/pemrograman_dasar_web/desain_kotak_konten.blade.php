@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>desain kotak content</title>
 
 
@@ -14,13 +15,11 @@
                font-family : arial, sans-serif;
                margin : 50;
                padding : 0;}
-
          header,footer{
             background-color :rgb(181, 82, 16);
             font-family : arial, sans-serif;
             text-align: center;
             padding :10px;
-
          }
          nav {
             background-color:rgb(152, 169, 169) ;
@@ -47,8 +46,7 @@
             margin :20px;
             padding :20px;
             display : flex;
-            justify-content :space-between;
-            
+            justify-content :space-between;   
          }
          article{
             background-color : white;
@@ -58,24 +56,9 @@
             width : 40 %;
             text-align :justify;
          }
-
-         section {
-        float: left;
-        width: 30%;
-        }
-
-        aside {
-        height: 100%;
-        width: 100px;
-        position: sticky;
-        top: 0;
-        left: 0;
-        padding-top: 40px;
-        background-color:rgb(151, 150, 150);
-      }
-
-
-    
+         #sidebar-nav {
+    width: 160px;
+}
     </style>
     <!--end style semantic-->
 
@@ -107,6 +90,25 @@
     </nav>
  
     <!---end nav--->
+
+<div class="container-fluid">
+    <div class="row flex nowrap">
+     <div class="col-auto px-0">
+        <div id="'sidebar " class="collapse collapse-horizontal show border-end">
+            <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-staart min-vh-100">
+                <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-parent="#sidebar"><span></span></a>
+                <ul clasas="dropdown-menu dropdown-menu-end shadow" aria-labelledby="dropdownuser2" style="">
+                <li><a class="dropdown item" id="aaaaaa" href="#"></a>aaaa</li>
+                <li><a class="dropdown item" id="bbbbbb" href="#"></a>bbbb</li>
+                <li><a class="dropdown item" id="cccccc" href="#"></a>cccc</li>
+                </ul>
+            </div>
+        </div>
+     </div>
+<main class="col ps-md-2 pt-2">
+    <a href="#"data-bs-target="#sidebar" data-bs-toggle="collapse" class="bordder rounded-3 p-1 text decoration-none"></a>
+<div class="row">
+    <div class="col-12">
 
     <!--main-->
    <main> 
@@ -163,13 +165,13 @@ Di GitHub, navigasikan ke halaman utama repositori. Di atas daftar file, <br>pil
  </main>
 
  <!---end main-->
-<aside>
-<ul>
-  <li><a href="#"></a>home</li>
-  <li><a hrf="#"></a>setting</li>
-  <li><a href="#"></a>logout</li>
-</ul>
-</aside>
+    </div>
+</div>
+</main>
+    </div>
+</div>
+
+
 <!--footer-->
    <footer>
    <p>&copy;2024|by salma</p>
