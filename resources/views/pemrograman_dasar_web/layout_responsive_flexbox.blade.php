@@ -73,7 +73,7 @@
 <body>
     <!--header-->
     <header>
-    <h1>Nama & logo aplikasi</h1>
+<img src="https://www.contexteditor.org/wp-content/uploads/2021/11/logo.gif" alt="Company Logo" width="200px" height="100px" />
       </header>
     
 

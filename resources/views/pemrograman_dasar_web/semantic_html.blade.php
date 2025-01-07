@@ -8,7 +8,7 @@
 <body>
     <!--header-->
     <header>
-    <h1>logo aplikasi</h1>
+<img src="https://www.contexteditor.org/wp-content/uploads/2021/11/logo.gif" alt="Company Logo" width="200px" height="100px" />
      </header>
 
      <!--/end header--->
@@ -27,9 +27,11 @@
     <!--main-->
    <main>
    <h3>content</h3>
-<p><img width="300" height="200" src="#" ><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nam, ipsum necessitatibus nesciunt sequi libero nemo, sint amet neque ex illum quos obcaecati officia numquam voluptate sunt at enim perferendis.</p>
-   </main>
-   <!--end main-->
+   <p>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="logo html" width="500px">
+   </p>
+
+</main>   <!--end main-->
 
 <!--footer-->
    <footer>
